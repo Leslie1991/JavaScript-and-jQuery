@@ -1,0 +1,20 @@
+.left20 {left: 20px;}
+.right20 {right: 20px;}
+.right0 {right: 0px;}
+.bottom0 {bottom: 0px;}
+.fl {float: left;}
+.mr10 {margin-right: 10px;}
+.width10 {width: 10px;}
+.height10 {height: 10px;}
+
+#canvas {width: 512px; height: 384px; position: relative; overflow: hidden;}
+#imgList {width: 4096px; position: absolute; z-index: 1}
+#option {position: absolute; z-index: 2;}
+.btn_slide {position: absolute; z-index: 2; top: 175px; width: 14px; height: 31px; background: url(../resources/home_bg_140107.png);}
+#btn_slideLeft {background-position: 0 -71px; overflow: hidden;}
+#btn_slideRight {background-position: -14px -71px; overflow: hidden;}
+.option_unselect {background-position: -10px 0px; overflow: hidden;}
+.option_select {background-position: 0px 0px; overflow: hidden;}
+img {width: 512px; height: 384px;}
+ul {list-style-type: none; width: 120px; height: 10px}
+li {display: inline-block; background: url(../resources/slide_dot.png);}
